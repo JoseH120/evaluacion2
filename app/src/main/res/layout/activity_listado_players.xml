@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_listado_players"
+    android:layout_margin="16dp"
+    tools:context=".ListadoPlayersActivity">
+
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/tv_id_player"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="id_img"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:id="@+id/edtNickName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NombrePlayer"
+                android:inputType="textPersonName"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/tv_id_img_player"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="id_img"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/tv_url_player"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="archivo_ruta"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_agregar_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lay2"
+        android:text="Agregar"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_eliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lay2"
+        android:layout_centerHorizontal="true"
+        android:text="Eliminar"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_regresar_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/lay2"
+        android:text="Cancelar"
+        android:textAllCaps="false"
+        />
+
+    <ListView
+        android:id="@+id/listview_players"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btn_agregar_player"
+        />
+
+</RelativeLayout>

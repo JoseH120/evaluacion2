@@ -1,0 +1,29 @@
+<resources>
+    <string name="item_menu1">Usuarios</string>
+    <string name="textview1">id: 1</string>
+    <string name="button2">Iniciar Juego</string>
+    <string name="button3">Mostrar Respuesta</string>
+    <string name="button4">Mostrar Puntaje</string>
+    <string name="button5">Mostrar Datos</string>
+    <string name="app_name">EjercicioPersistenciaDato</string>
+    <string name="textview2">Nombre usuario</string>
+    <string name="textview3">Respuesta</string>
+    <string name="textview4">Desarrollado por</string>
+    <string name="textview5">Jose Francisco Hernandez Reyes</string>
+    <string name="textview6">HR18-I04-001</string>
+    <string name="textview7">Ingrese un numero entre 1 - 10</string>
+    <string name="textview8">juan</string>
+    <string name="edittext1">Ingrese un numero</string>
+    <string name="button1">Guardar</string>
+    <string name="button6">Adivinar</string>
+    <string name="button7">Abandonar</string>
+    <string name="button8">Modificar</string>
+    <string name="button9">Eliminar</string>
+    <string name="activity1">Mantenimiento Players</string>
+    <string name="activity2">Desarrollador</string>
+    <string name="activity3">Puntaje</string>
+    <string name="activity4">Numero Secreto</string>
+    <string name="activity5">Comenzar A Jugar</string>
+    <string name="activity6">Mantenimiento Imgs</string>
+    <string name="activity7">Guardar Imgs</string>
+</resources>
